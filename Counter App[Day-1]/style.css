@@ -1,0 +1,55 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
+/* Counter text */
+#counter {
+    font-size: 80px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Buttons styling */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#increment {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#decrement {
+    background-color: #f44336;
+    color: white;
+}
+
+#reset {
+    background-color: #555;
+    color: white;
+}
+
+/* Hover effects */
+button:hover {
+    opacity: 0.8;
+}
