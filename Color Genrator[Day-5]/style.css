@@ -1,0 +1,43 @@
+html,body{
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1e1e2f; /* deep navy */
+color: #f8f8f8;            /* light text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    margin: 10px;
+    padding: 10px;
+    height: 280px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+#gen {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #5b54fa, #00feba);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#gen:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.colorGenrator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
